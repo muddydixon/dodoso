@@ -1,0 +1,17 @@
+title: karieron
+port: 8081
+
+database:
+  client: mysql
+  connection:
+    host: 192.168.99.100
+    port: 3309
+    database: dodoso
+    user: dodoso
+    password: dodoso
+    charset: utf8mb4
+  migrations:
+    tableName: knex_migrations
+
+itemTypes: ["header", "text", "textarea", "radio", "checkbox"]
+defaultItemTypes: "radio"
